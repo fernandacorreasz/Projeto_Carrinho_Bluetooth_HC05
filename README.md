@@ -36,9 +36,8 @@ Conecte cada motor a um canal de saída da ponte H. A bateria dos motores deve s
 
 Para proteger o RXD: **D11 → resistor de 1 kΩ → RXD**, com um **resistor de 2 kΩ entre RXD e GND**. Faça as ligações com tudo desligado.
 
-> **[INSERIR IMAGEM 1 — DEMONSTRAÇÃO DO CIRCUITO]**  
-> Adicione sua foto em `imagens/demonstracao-circuito.png` e substitua este bloco por:  
-> `![Demonstração do circuito montado](imagens/demonstracao-circuito.png)`
+> **[ DEMONSTRAÇÃO DO CIRCUITO]**  
+
 
 **Tutorial da montagem:** [Ver circuito e ligações](https://universorobotico.vercel.app/circuito.html).
 
@@ -68,7 +67,7 @@ void frente() {
 
 Para gravar: abra o `.ino` na **Arduino IDE**, selecione a placa **Arduino Uno** e a porta correspondente e clique em **Carregar**.
 
-> **[INSERIR IMAGEM 2 — CÓDIGO NA ARDUINO IDE]**  
+> **[ CÓDIGO NA ARDUINO IDE]**  
 > Adicione sua captura em `imagens/codigo-arduino-ide.png` e substitua este bloco por:  
 > `![Código do carrinho aberto na Arduino IDE](imagens/codigo-arduino-ide.png)`
 
@@ -88,7 +87,7 @@ O **ControlSCar** se conecta ao HC-05 por Bluetooth clássico e envia caracteres
 
 O aplicativo foi configurado para **repetir o comando enquanto a seta estiver pressionada** e enviar **`S` ao soltar**. O Arduino reconhece as letras e controla a ponte H.
 
-> **[INSERIR IMAGEM 3 — APLICATIVO]**  
+> **[APLICATIVO]**  
 > Adicione sua captura em `imagens/aplicativo-controlscar.png` e substitua este bloco por:  
 > `![Aplicativo ControlSCar conectado ao carrinho](imagens/aplicativo-controlscar.png)`
 
