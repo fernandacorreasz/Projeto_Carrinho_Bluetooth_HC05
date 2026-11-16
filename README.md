@@ -68,8 +68,6 @@ void frente() {
 Para gravar: abra o `.ino` na **Arduino IDE**, selecione a placa **Arduino Uno** e a porta correspondente e clique em **Carregar**.
 
 > **[ CÓDIGO NA ARDUINO IDE]**  
-> Adicione sua captura em `imagens/codigo-arduino-ide.png` e substitua este bloco por:  
-> `![Código do carrinho aberto na Arduino IDE](imagens/codigo-arduino-ide.png)`
 
 **Tutorial da programação:** [Entender o código e as funções](https://universorobotico.vercel.app/codigo.html).
 
@@ -88,8 +86,7 @@ O **ControlSCar** se conecta ao HC-05 por Bluetooth clássico e envia caracteres
 O aplicativo foi configurado para **repetir o comando enquanto a seta estiver pressionada** e enviar **`S` ao soltar**. O Arduino reconhece as letras e controla a ponte H.
 
 > **[APLICATIVO]**  
-> Adicione sua captura em `imagens/aplicativo-controlscar.png` e substitua este bloco por:  
-> `![Aplicativo ControlSCar conectado ao carrinho](imagens/aplicativo-controlscar.png)`
+
 
 **Tutorial do aplicativo:** [Instalação, pareamento e teste](https://universorobotico.vercel.app/aplicativo.html).
 
